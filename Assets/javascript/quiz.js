@@ -1,19 +1,3 @@
-/*
-REGULAR FLOW OF PAGE:
-Step 1: if user makes a selection 
-
-/*
-TIMER:
-Step 1: Create a timer for 1 min, 10 secs that will run throughout entirety of webpage upon click of the start button
-
-Step 2: IF user clicks on X, then highlight answer and make it appear bigger
-        
-        ELSE, change answer to "INCORRECT. -3 seconds" and remove 3 seconds from the timer
-        Repeat this for each question
-
-Step 3: If timer runs out, display score and have them input their initials & save
-        If they finish before the timer runs out, display score and have them input their initials & save
-*/
 
 
 function timer(){
@@ -28,3 +12,21 @@ function timer(){
 }
 
 timer();
+
+document.getElementById("correct").addEventListener("click", correct);
+
+function correct() {
+    document.getElementById("correct").innerHTML = "YES!";
+    document.getElementById("correct").style.color = "white";
+    document.getElementById("correct").style.backgroundColor = "green";
+    document.getElementById("correct").style.fontSize = "28px";    
+};
+
+document.querySelector(".incorrect").addEventListener("click", incorrect);
+
+function incorrect() {
+    document.querySelector(".incorrect").innerHTML = "WRONG";
+    document.querySelector(".incorrect").style.color = "white";
+    document.querySelector(".incorrect").style.backgroundColor = "red";
+    document.querySelector(".incorrect").style.fontSize = "28px";
+};
