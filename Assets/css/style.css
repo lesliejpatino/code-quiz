@@ -4,16 +4,29 @@
     font-size: 22px;
 }
 
-#welcome, #first {
+#welcome {
     position: absolute;
-    top: 50%;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+#first {
+    position: absolute;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%); 
 }
 
+p {
+    font-size: 20px;
+}
+
 #start {
-    position: absolute;
+    position: fixed;
     top: 60%;
     left: 50%;
     margin-right: -50%;
@@ -28,3 +41,14 @@ h1 {
    display: none;
 }
 
+#scores {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.timer {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
