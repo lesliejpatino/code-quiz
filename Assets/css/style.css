@@ -1,0 +1,30 @@
+* {
+    background-color: aquamarine;
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+}
+
+#welcome, #first {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+
+#start {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+
+h1 {
+   font-size: 28px; 
+}
+
+#second, #third, #fourth, #fifth, #sixth {
+   display: none;
+}
+
