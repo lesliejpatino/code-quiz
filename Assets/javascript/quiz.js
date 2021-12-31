@@ -1,6 +1,6 @@
 // created a 70 second timer that will remain on the page for the duration of the quiz
 function timer(){
-    window.sec = 70;
+    window.sec = 60;
     var timer = setInterval(function(){
         document.getElementById('timer').innerHTML='00:'+sec;
         sec--;
@@ -8,9 +8,16 @@ function timer(){
             clearInterval(timer);
         }
     }, 1000);
+//this will take the user to the score page once the timer is up
+    setTimeout(function() {
+        window.location.href="./scores.html"
+    }, 60000);
 }
 
 timer();
+
+
+
 
 // Created a variable for the Start Quiz Button 
 var generateBtn = document.querySelector("#start-quiz");
@@ -29,7 +36,7 @@ for (let i = 0; i < correctButtons.length; i++) {
 }
 
 var incorrectButtons = document.querySelectorAll(".incorrect")
-// Created a for loop that will move on to the next question when a user selects the incorrect answer
+// Created a for loop that will remove 5 seconds from the timer & move on to the next question when a user selects the incorrect answer
 // I had to add all the "if" statements because it was skipping questions depending on which incorrect answer the user clicked. 
 for (let i = 0; i < incorrectButtons.length; i++) {
     incorrectButtons[i].addEventListener("click", incorrect);
@@ -106,7 +113,4 @@ for (let i = 0; i < incorrectButtons.length; i++) {
         document.getElementById("q"+next).style="display:block"
     };
 }
-
-
-
-
+// need each correct question to add 3 points
