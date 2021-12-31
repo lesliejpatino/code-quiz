@@ -4,16 +4,48 @@
     font-size: 22px;
 }
 
-#welcome, .final {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%); 
+#welcome {
+    display: block;
+    margin: 3%;
     text-align: center;
 }
 
-#first {
+#start {
+    display: block;
+    text-align: center;
+}
+
+#start-quiz {
+    border: double 6px red;
+    color: red;
+    background-color: white;
+    font-size: 30px;
+}
+
+.final {
+    text-align: center;
+    padding: 2%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+.all-scores, tr, td {
+    border: solid 1px black;
+    width: 25%;
+    padding: 1%;
+    margin: 3%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+td {
+    font-size: 18px;
+    height: 20px;
+}
+
+#q0, #q1, #q2, #q3, #q4, #q5 {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -25,19 +57,13 @@ p {
     font-size: 20px;
 }
 
-#start {
-    position: fixed;
-    top: 60%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%); 
-}
+
 
 h1 {
    font-size: 28px; 
 }
 
-#second, #third, #fourth, #fifth, #sixth {
+#q1, #q2, #q3, #q4, #q5 {
    display: none;
 }
 
@@ -54,6 +80,6 @@ h1 {
 }
 
 input[type=text] {
-    width: 25%;
+    width: 12%;
 }
 
