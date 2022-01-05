@@ -12,6 +12,8 @@
 </head>
 
 <body>
+<section class="quiz-questions">
+
 <section id="q0">
     <header>Which of these should be used to select 1 specific element on a page?</header>
     <ol type="A">
@@ -65,10 +67,10 @@
 <section id="q5">
     <header>How do you declare a JavaScript variable?</header>
     <ol type="A">
-        <li><button class="correct"><a href="scores.html"> var likeThis; </a></button></li>
-        <li><button class="incorrect"><a href="scores.html"> variable = likeThis; </a></button></li>
-        <li><button class="incorrect"><a href="scores.html"> var = like this; </a></button></li>
-        <li><button class="incorrect"><a href="scores.html"> var (likeThis); </a></button></li>
+        <li><button class="correct send-score"> var likeThis; </button></li>
+        <li><button class="incorrect send-score">variable = likeThis;</button></li>
+        <li><button class="incorrect send-score">var = like this;</button></li>
+        <li><button class="incorrect send-score"> var (likeThis); </button></li>
     </ol>
 </section>
 
@@ -82,6 +84,47 @@
     </section>
     
 </footer>
+</section>
+
+<section class="scores-page">
+<section class="final">
+    Great Work!
+    Your final score is: <span id="final-score">  </span>  
+    <br>
+    <br>
+    Enter Your Initials: 
+    <input type="text" id="initials" name="initials" placeholder="Your initials..">
+    
+    <button>Submit</button>
+</section>
+
+<section class="all-scores">
+    <table>
+        <tr>
+            <td>Initials</td>
+            <td>Final Score <span id="final-score"></span></td>
+        </tr>
+
+        <tr>
+            <td class="initials"> </td>
+            <td class="score"> </td>
+        </tr>
+
+        <tr>
+            <td class="initials"> </td>
+            <td class="score"> </td>
+        </tr>
+
+        <tr>
+            <td class="initials"> </td>
+            <td class="score"> </td>
+        </tr>
+
+    </table>
+</section>   
+</section>
+
+
 
     <script src="../Assets/javascript/quiz.js"></script>
 
