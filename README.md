@@ -6,7 +6,7 @@
 ## Deployed Site
 * ![Code Quiz Site] (https://lesliejpatino.github.io/code-quiz/)
 
-* ![Deployed Site Image] (./assets/images/quiz-question.png)
+* ![Deployed Site Image] (Assets/images/quiz-question.png)
 * ![Welcome Screen] (https://media.giphy.com/media/8GwkYsOPqTi5kLuMY5/giphy.gif)
 * ![Quiz Questions] (https://media.giphy.com/media/juSTJxsiau6Xh3smn8/giphy.gif)
 * ![Final Score Page] https://media.giphy.com/media/WBnaZqBFonterP1NYv/giphy.gif
