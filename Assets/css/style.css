@@ -1,7 +1,15 @@
-* {
+.welcome-page {
+    background-color: navy;
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    color: white;
+}
+
+.quiz-page {
     background-color: aquamarine;
     font-family: 'DM Serif Display', serif;
     font-size: 22px;
+    color: navy;
 }
 
 #welcome {
@@ -16,9 +24,9 @@
 }
 
 #start-quiz {
-    border: double 8px navy;
-    color: navy;
-    background-color:  white;
+    border: double 8px aquamarine;
+    color: white;
+    background-color:  navy;
     font-size: 30px;
 }
 
@@ -30,9 +38,15 @@
     margin-right: auto; 
 }
 
+button {
+    border: 2px solid white;
+    color: white;
+    background-color: navy;
+    font-size: 19px;
+}
 
 .all-scores, tr, td {
-    border: solid 1px black;
+    border: solid 1px navy;
     width: 25%;
     padding: 1%;
     margin: 3%;
@@ -56,8 +70,6 @@ td {
 p {
     font-size: 20px;
 }
-
-
 
 h1 {
    font-size: 28px; 
