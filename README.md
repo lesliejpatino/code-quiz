@@ -9,7 +9,7 @@
 * [Deployed Site Image](https://github.com/lesliejpatino/code-quiz/issues/1#issue-1094915046)
 * [Welcome Screen](https://media.giphy.com/media/8GwkYsOPqTi5kLuMY5/giphy.gif)
 * [Quiz Questions](https://media.giphy.com/media/juSTJxsiau6Xh3smn8/giphy.gif)
-* [Final Score Page]https://media.giphy.com/media/WBnaZqBFonterP1NYv/giphy.gif
+* [Final Score Page](https://media.giphy.com/media/WBnaZqBFonterP1NYv/giphy.gif)
 
 
 ## Built With
