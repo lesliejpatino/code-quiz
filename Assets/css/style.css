@@ -16,9 +16,9 @@
 }
 
 #start-quiz {
-    border: double 6px red;
-    color: red;
-    background-color: white;
+    border: double 8px navy;
+    color: navy;
+    background-color:  white;
     font-size: 30px;
 }
 
@@ -67,12 +67,6 @@ h1 {
    display: none;
 }
 
-.scores {
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-}
-
 .timer {
     position: absolute;
     bottom: 0;
@@ -86,4 +80,8 @@ input[type=text] {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+.scores-page {
+    display: none;
 }

@@ -43,9 +43,6 @@ for (let i = 0; i < correctButtons.length; i++) {
         }
     };
 }
-console.log(totalScore);
-// The totalScore would be inserted inside of id - #final-score
-
 
 var incorrectButtons = document.querySelectorAll(".incorrect")
 // Created a for loop that will remove 5 seconds from the timer & move on to the next question when a user selects the incorrect answer
@@ -69,8 +66,23 @@ for (let i = 0; i < incorrectButtons.length; i++) {
         }
     };
 
+    var submitBtn = document.querySelector("#submit-btn");
+    var initials = document.querySelector('#initials');
+
+    submitBtn.addEventListener("click", submitScore); 
 
 
+    function submitScore(e) { 
+        localStorage.setItem("finalScore", totalScore);
+        localStorage.setItem("initials", initials.value);
+        console.log("test")
+        var firstScore = localStorage.getItem("finalScore");
+        var firstUser = localStorage.getItem("initials");
 
+        score1.innerText = firstScore;
+        initial1.innerText = firstUser;
+    }
 
-
+    var initial1 = document.querySelector("#initial1");
+    var score1 = document.querySelector("#score1");
+}
