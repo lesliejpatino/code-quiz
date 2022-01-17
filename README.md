@@ -7,22 +7,22 @@
 * [Code Quiz Site](https://lesliejpatino.github.io/code-quiz/)
 
 * ![Deployed Site Image](https://github.com/lesliejpatino/code-quiz/issues/1#issue-1094915046)
-* [Welcome Screen](https://media.giphy.com/media/8GwkYsOPqTi5kLuMY5/giphy.gif)
-* [Quiz Questions](https://media.giphy.com/media/juSTJxsiau6Xh3smn8/giphy.gif)
-* [Final Score Page](https://media.giphy.com/media/WBnaZqBFonterP1NYv/giphy.gif)
+* ![Welcome Screen](https://media.giphy.com/media/8GwkYsOPqTi5kLuMY5/giphy.gif)
+* ![Quiz Questions](https://media.giphy.com/media/juSTJxsiau6Xh3smn8/giphy.gif)
+* ![Final Score Page](https://media.giphy.com/media/WBnaZqBFonterP1NYv/giphy.gif)
 
 
 ## Built With
 
-* [HTML] 
-* [CSS]
-* [Javascript] 
-* [StackOverflow] (https://stackoverflow.com/questions/10642671/increment-variable-by-more-than-1)
-* [Log Rocket] (https://blog.logrocket.com/localstorage-javascript-complete-guide/)
+* HTML
+* CSS
+* Javascript
+* [StackOverflow](https://stackoverflow.com/questions/10642671/increment-variable-by-more-than-1)
+* [Log Rocket](https://blog.logrocket.com/localstorage-javascript-complete-guide/)
 
 
 
 ### AUTHORS
 * **Leslie Patino**
-* [My GitHub] (https://github.com/lesliejpatino)
-* [My LinkedIn] (https://www.linkedin.com/in/lesliejpatino/)
+* [My GitHub](https://github.com/lesliejpatino)
+* [My LinkedIn](https://www.linkedin.com/in/lesliejpatino/)
